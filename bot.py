@@ -21,9 +21,9 @@ def send(x,y):
 def riga(x):
 	#print(x)
 	dati = x.split(' ')
-	#if dati[4] == 'left':
-	#	print('E uscito '+dati[3])
-	#	send(dati[3],'esce')
+	if dati[4] == 'left':
+		print('E uscito '+dati[3])
+		send(dati[3],'esce')
 		
 	elif dati[4] == 'joined':
 		#print('E entrato '+dati[3])
